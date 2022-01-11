@@ -7,7 +7,7 @@
  * @pos1: Position of element 1
  * @pos2: Position of element 2
  */
-void swap(int *array, int pos1, int pos2)
+void swap(int *array, size_t pos1, size_t pos2)
 {
 	int temp = array[pos1];
 
