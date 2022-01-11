@@ -7,15 +7,16 @@
  * @pos1: Position of element 1
  * @pos2: Position of element 2
  */
-void swap(int *arr, int pos1, int pos2)
+void swap(int *array, int pos1, int pos2)
 {
-	int temp = arr[pos1];
-	arr[pos1] = arr[pos2];
-	arr[pos2] = temp;
+	int temp = array[pos1];
+
+	array[pos1] = array[pos2];
+	array[pos2] = temp;
 }
 
 /**
- * bubble_sort sorts an array usinng the bubblesot algorithm
+ * bubble_sort - sorts an array usinng the bubblesot algorithm
  * @array: The array to sort
  * @size: Size of array
  */
