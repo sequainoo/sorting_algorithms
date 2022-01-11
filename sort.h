@@ -26,5 +26,6 @@ void bubble_sort(int *array, size_t size);
 void swap(int *array, size_t pos1, size_t pos2);
 void quickSort(int *array, int start, int end, int size);
 void quick_sort(int *array, size_t size);
+void selection_sort(int *array, size_t size);
 
 #endif
